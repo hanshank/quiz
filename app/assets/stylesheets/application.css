@@ -21,13 +21,14 @@
 
  .banner {
    height: calc(100vh - 80px);
+   background: url("boxer.jpg");
    display: flex;
    justify-content: center;
    align-items: center;
  }
 
- .message {
-
+ .message h1 {
+   color: red;
 
  }
 
