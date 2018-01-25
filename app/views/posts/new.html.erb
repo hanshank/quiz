@@ -1,0 +1,12 @@
+<div>
+  <h1>Add a new post</h1>
+  <%= simple_form_for(@post) do |f| %>
+    <%= f.input :title %>
+    <%= f.input :category %>
+    <%= f.text_area :content %>
+    <br />
+    <%= f.submit "Create", class: 'button' %>
+    <br />
+    <% end %>
+    <br />
+</div>
