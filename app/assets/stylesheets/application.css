@@ -35,3 +35,7 @@
  .message-box {
    text-align: center;
  }
+
+.button {
+  border: solid 2px white;
+}
